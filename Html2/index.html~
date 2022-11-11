@@ -5,14 +5,103 @@
   <link rel="stylesheet" href="styles.css">
 </head>
   <link rel="stylesheet" href="styles.css">
-<body> {background-color: powderblue;}
 
+<!-- <body> -->
+  <body style="background-color:#3cb371;">
+<style>
+
+.city {
+  background-color: tomato;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  width: 400px;
+  padding: 20px;
+}
+
+.cityy {
+  background-color: blue;
+  color: black;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+
+.child {
+  position: absolute;
+    margin: 20px;
+  padding: 20px;
+}
+
+.child-1 {
+  left: 0;
+}
+
+.child-2 {
+  left: 150px;
+}
+
+.parent {
+  position: relative;
+}
+
+
+</style>
+
+<table>
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+</table>
+
+
+<p>
+
+
+
+<div class="child">
+  <h2>London</h2>
+  <p>London is the capital of England.</p>
+</div>
+
+<div class="cityy">
+  <h2>Paris</h2>
+  <p>Paris is the capital of France.</p>
+</div>
+
+<div class="city">
+  <h2>Tokyo</h2>
+  <p>Tokyo is the capital of Japan.</p>
+</div></div>
+
+<div class="cityy">
+  <h2>Paris</h2>
+  <p>Paris is the capital of France.</p>
+</div>
+
+</p>
+
+<strong>Bold Text</strong><br>
 
 <h1 style="background-color:blanchedalmond;">Hello World</h1>
 <p style="background-color:Tomato;">Lorem ipsum...</p>
 
 
 <a href="https://www.w3schools.com">Visit W3Schools</a>
+
+
 
 
 
@@ -71,7 +160,7 @@ ignores it.
 
 
 
-
+</p>
 
 <p> <b> - Bold text </p>
 <p> <strong> - Important text</p>
@@ -95,16 +184,24 @@ WWF works in 100 countries and is supported by
 close to 5 million globally.
 </blockquote>
 
-
-
 <p>This is a paragraph.</p>
 <!-- <p>This is another paragraph </p> -->
 <p>This is a paragraph too.</p>
 
-
-
-
-
-
 </body>
+
+<div class="city">
+  <h2>London</h2>
+  <p>London is the capital of England.</p>
+</div>
+
+<div class="cityy">
+  <h2>Paris</h2>
+  <p>Paris is the capital of France.</p>
+</div>
+
+<div class="city">
+  <h2>Tokyo</h2>
+  <p>Tokyo is the capital of Japan.</p>
+</div></div>
 </html>
